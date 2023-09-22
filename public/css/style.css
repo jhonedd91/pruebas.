@@ -1,0 +1,67 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilo para los encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilo para los botones */
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  /* Estilo para las tablas */
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 1.5;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }
+  
+  .table .table {
+    background-color: #fff;
+  }
+  
